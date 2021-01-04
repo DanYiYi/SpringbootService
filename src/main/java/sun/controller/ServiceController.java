@@ -29,7 +29,6 @@ public class ServiceController {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        System.out.println("111111");
 
         CommUtils.printDataJason(response, restfulResult);
     }
